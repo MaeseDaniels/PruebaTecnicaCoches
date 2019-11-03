@@ -1,0 +1,134 @@
+
+//FiraSans
+
+@font-face {
+  font-family: FiraSans;
+  src:url(./fuentes/Fira_Sans/FiraSans-Bold.ttf) format('truetype');
+  font-weight: $bold;
+}
+
+@font-face {
+  font-family: FiraSans;
+  src:url(./fuentes/Fira_Sans/FiraSans-BoldItalic.ttf) format('truetype');
+  font-weight: $bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: FiraSans;
+  src:url(./fuentes/Fira_Sans/FiraSans-Italic.ttf) format('truetype');
+  font-style: italic;
+  font-weight: $regular;
+}
+
+@font-face {
+  font-family: FiraSans;
+  src:url(./fuentes/Fira_Sans/FiraSans-Light.ttf) format('truetype');
+  font-weight: $light;
+}
+
+@font-face {
+  font-family: FiraSans;
+  src:url(./fuentes/Fira_Sans/FiraSans-LightItalic.ttf) format('truetype');
+  font-weight: $light;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: FiraSans;
+  src:url(./fuentes/Fira_Sans/FiraSans-Medium.ttf) format('truetype');
+  font-weight: $medium;
+}
+
+@font-face {
+  font-family: FiraSans;
+  src:url(./fuentes/Fira_Sans/FiraSans-MediumItalic.ttf) format('truetype');
+  font-weight: $medium;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: FiraSans;
+  src:url(./fuentes/Fira_Sans/FiraSans-Regular.ttf) format('truetype');
+  font-weight: $regular;
+}
+
+//Roboto
+
+@font-face {
+  font-family: Roboto;
+  src:url(./fuentes/Roboto/Roboto-Black.ttf) format('truetype');
+  font-weight: $black;
+}
+
+@font-face {
+  font-family: Roboto;
+  src:url(./fuentes/Roboto/Roboto-BlackItalic.ttf) format('truetype');
+  font-weight: $black;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Roboto;
+  src:url(./fuentes/Roboto/Roboto-Bold.ttf) format('truetype');
+  font-weight: $bold;
+}
+
+@font-face {
+  font-family: Roboto;
+  src:url(./fuentes/Roboto/Roboto-BoldItalic.ttf) format('truetype');
+  font-weight: $bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Roboto;
+  src:url(./fuentes/Roboto/Roboto-Italic.ttf) format('truetype');
+  font-weight: $regular;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Roboto;
+  src:url(./fuentes/Roboto/Roboto-Light.ttf) format('truetype');
+  font-weight: $light;
+}
+
+@font-face {
+  font-family: Roboto;
+  src:url(./fuentes/Roboto/Roboto-LightItalic.ttf) format('truetype');
+  font-weight: $light;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Roboto;
+  src:url(./fuentes/Roboto/Roboto-Medium.ttf) format('truetype');
+  font-weight: $medium;
+}
+
+@font-face {
+  font-family: Roboto;
+  src:url(./fuentes/Roboto/Roboto-MediumItalic.ttf) format('truetype');
+  font-weight: $medium;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Roboto;
+  src:url(./fuentes/Roboto/Roboto-Regular.ttf) format('truetype');
+  font-weight: $regular;
+}
+
+@font-face {
+  font-family: Roboto;
+  src:url(./fuentes/Roboto/Roboto-Thin.ttf) format('truetype');
+  font-weight: $thin;
+}
+
+@font-face {
+  font-family: Roboto;
+  src:url(./fuentes/Roboto/Roboto-ThinItalic.ttf) format('truetype');
+  font-weight: $thin;
+  font-style: italic;
+}

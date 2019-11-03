@@ -1,0 +1,392 @@
+@import '../../base/base.scss';
+
+.Body {
+
+  
+
+  @media (min-width:$desktop) {
+    padding: 20px 0;
+
+  }
+  
+  &__section {
+    margin-bottom: 20px;
+    @media (min-width:$desktop)  {
+      display: flex;
+    }
+    &__text {
+
+      .paragraph {
+        margin-bottom: 20px; 
+        font-family: FiraSans;
+        color: $textGrey;
+        font-size: 14px;
+        line-height: 18px;
+         
+       }
+    }
+
+    &__charts {
+      display: flex;
+      justify-content: space-around;
+      margin-left: 20px;
+      .chart {
+
+        @media (min-width:$desktop) {
+          padding: 0 20px;
+        }
+
+        &__label {
+          font-family: FiraSans;
+          font-weight: $bold;
+          font-size: 20px;
+          color: $blue;
+          text-align: center;
+          padding: 20px;
+        }
+        .donut-chart {
+          position: relative;
+          border-radius: 50%;
+          overflow: hidden;
+          transform: rotateY(180deg);
+          z-index: -1;
+        
+          .slice {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          }
+        
+          .chart-center {
+            position: absolute;
+            border-radius: 50%;
+          
+            &__text {
+              display: block;
+              text-align: center;
+              font-family: FiraSans;
+              font-weight: $bold;
+              transform: rotateY(180deg);
+
+            }
+          }
+        }
+      }
+      
+    }
+    &.first {
+      padding: 20px;
+
+      @media (min-width:$desktop) {
+        padding: 0;
+        margin: 0 10%;
+    
+      }
+    }
+
+    &.second {
+      transform: skewY(-5deg);
+      background-image:
+        url("../../assets/coche_fondo.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-y: 100%;
+      background-position-x: 30%;
+      transform-origin: center center;
+      .wrap {
+        
+        background-color: $transparentRed;
+        width: 100%;
+
+        &__container {
+          display: flex;
+          flex-direction: column;
+          transform: skewY(5deg);
+          padding-top: 40px;
+
+          @media (min-width:$desktop) {
+            flex-direction: row;
+            margin: 0 10%;
+            padding-top: 100px;
+            padding-bottom: 100px;
+          }
+
+          .Body__section__pilots{
+            display: flex;
+            justify-content: space-around;
+            user-select: none;
+          
+            @media (min-width:$desktop) {
+              flex: 1;
+            }
+            .aux {
+              @media (min-width:$desktop) {
+                padding: 40px 0 ;
+                
+                &:first-child {
+                  margin-right: 40px;
+                }
+              }
+            }
+            .pilot{
+              display: flex;
+              position: relative;
+              width: 150px;
+              height: 150px;
+
+              &__img {
+                position: absolute;
+                bottom:0;
+                height: 200px;
+                width: 200px;
+                margin-left: -25px;
+                clip-path: ellipse(79px 95px at 50% 41%);
+                margin-bottom: -17%;
+              }
+              &__circle{
+                position: absolute;
+                bottom:0;
+                width: 150px;
+                height: 150px;
+                background-color: $yellow;
+                border-radius: 100%;
+                z-index: -1;
+              }
+
+              &__flag {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width:50px;
+                border-radius: 100%;
+                
+                
+                &__img {
+                  width:100%;
+                  clip-path: circle(40% at 50% 50%);
+                  border: 1px solid white;
+                }
+              }
+            }
+            .text{
+              width: 100%;
+              text-align: center;
+              padding: 20px;
+              color: white;
+              font-family: FiraSans;
+              line-height: 16px;
+              letter-spacing: 1px;
+              &__name{
+                font-size: 12px;
+                
+                font-weight: $light;
+                
+              }
+
+              &__lastname {
+                font-weight: $bold;
+              }
+            }
+          }
+          .Body__section__cars{
+            display: flex;
+            justify-content: center;
+            .car {
+              padding-left: 20px;
+              margin-bottom: -40px;
+              @media (min-width:$desktop) {
+                margin-bottom: 0;
+              }
+              
+              &__img{
+                width: 100%;
+               
+              }
+            }
+          }
+          
+        }
+        
+      }
+    }
+
+    &.third {
+      display: flex;
+      flex-direction: column;
+      margin-top: 60px;
+      padding: 20px;
+      @media (min-width:$desktop) {
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0 10%;
+        padding: 0;
+      }
+
+      .article {
+        width: 100%;
+        margin-bottom: 10px;
+        background-color: white;
+        
+
+        @media (min-width:$desktop) {
+          transform: rotate(0);
+          border: 2px solid white;
+          display: flex;
+          flex-direction: column;
+          flex-basis: 32%;
+          margin-top:-140px;
+        }
+        
+
+        &__img{
+          margin-bottom: 10px;
+          cursor: pointer;
+          flex: 1;
+
+          &__item {
+            width: 100%;
+
+          }
+        }
+
+        &__title {
+          letter-spacing: 1px;
+          line-height: 30px;
+          cursor: pointer;
+          margin-bottom: 10px;
+          flex: 1;
+          &__red {
+            font-family: Roboto;
+            color: $red;
+            font-size: 14px;
+            
+            @media (min-width:$desktop) {
+              font-size: 18px;
+            }
+          }
+          &__blue {
+            font-family: FiraSans;
+            color: $blue;
+            font-weight: $black;
+            font-size: 18px;
+
+            @media (min-width:$desktop) {
+              font-size: 26px;
+            }
+          }
+        }
+
+        &__desc {
+          font-family: Roboto;
+          font-size: 12px;
+          line-height: 16px;
+          color: $textGrey;
+
+          @media (min-width:$desktop) {
+            font-size: 16px;
+            line-height: 20px;
+          }
+
+        }
+
+        &:not(:first-child) {
+          display: flex;
+          border-top: 1px solid $borderGrey;
+          padding-top: 10px;
+
+          @media (min-width:$desktop) {
+            flex-direction: column;
+            border-top: 1px solid white;
+            padding-top: 0;
+          }
+          .article__img {
+            margin-right: 5px;
+            margin-bottom: 0;
+            @media (min-width:$desktop) {
+              margin-right: 0;
+            }
+            
+          }
+          .article__title {
+            margin-top: 5px;
+            margin-left: 5px;
+          }
+          .article__desc {
+            display: none;
+
+            @media (min-width:$desktop) {
+              display: block;
+            }
+          }
+        }
+
+
+      }
+    }
+  }
+}
+
+//Charts
+
+@mixin donut-chart($name, $perc, $size, $width, $base, $center, $color, $textColor: $color, $textSize: 40px) {
+  
+  $color2: $color;
+  $base2: $base;
+	$deg: ($perc/100*360)+deg;
+	$deg1: 90deg;
+	$deg2: $deg;
+	
+	// If percentage is less than 50%
+	@if $perc < 50 {
+		$base: $color;
+    $color: $base2;
+    $color2: $base2;
+    $deg1: ($perc/100*360+90)+deg;
+		$deg2: 0deg;
+	}
+    
+  .donut-chart {
+    &#{$name} {
+      width: $size;
+      height: $size;
+      background: $base;
+      
+      .slice {
+        &.one {
+          clip: rect(0 $size $size/2 0);
+          transform: rotate($deg1);
+          background: $color;
+        }
+        
+        &.two {
+          clip: rect(0 $size/2 $size 0);
+          transform: rotate($deg2);
+          background: $color2;
+        }
+      }
+      
+      .chart-center {
+        top: $width;
+        left: $width;
+        width: $size - ($width * 2);
+        height: $size - ($width * 2);
+        background: $center;
+        
+        span {
+          font-size: $textSize;
+          line-height: $size - ($width * 2);
+          color: $textColor;
+        
+          &:after {
+          content: '#{$perc}%';
+          }
+        }
+      }
+    }
+  }
+} 
+
+@include donut-chart('.chart2', 80, 120px, 16px, #e1e1e1, #fff, $red, $blue, 28px);
+@include donut-chart('.chart1', 67, 120px, 16px, #e1e1e1, #fff, $red, $blue, 28px);

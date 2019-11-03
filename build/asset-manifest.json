@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./static/css/main.ef6c852d.chunk.css",
+    "main.js": "./static/js/main.400315ca.chunk.js",
+    "main.js.map": "./static/js/main.400315ca.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.d1386f07.js",
+    "runtime-main.js.map": "./static/js/runtime-main.d1386f07.js.map",
+    "static/js/2.19192063.chunk.js": "./static/js/2.19192063.chunk.js",
+    "static/js/2.19192063.chunk.js.map": "./static/js/2.19192063.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.0075bc87236f093f799660a83b17e72a.js": "./precache-manifest.0075bc87236f093f799660a83b17e72a.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.ef6c852d.chunk.css.map": "./static/css/main.ef6c852d.chunk.css.map",
+    "static/media/Bottas.png": "./static/media/Bottas.2239a6b1.png",
+    "static/media/App.scss": "./static/media/Roboto-ThinItalic.1e5737be.ttf",
+    "static/media/Hamilton.png": "./static/media/Hamilton.88285f85.png",
+    "static/media/coche.png": "./static/media/coche.403aa4a5.png",
+    "static/media/Body.scss": "./static/media/coche_fondo.16d85056.png",
+    "static/media/fin.svg": "./static/media/fin.73a36cb9.svg",
+    "static/media/foto_noticia.jpg": "./static/media/foto_noticia.6c46a1bd.jpg",
+    "static/media/ing.svg": "./static/media/ing.4c4e6b0f.svg",
+    "static/media/logo@1x.svg": "./static/media/logo@1x.1f0197ca.svg",
+    "static/media/Header.scss": "./static/media/logo_grande.7d337ff0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d1386f07.js",
+    "static/js/2.19192063.chunk.js",
+    "static/css/main.ef6c852d.chunk.css",
+    "static/js/main.400315ca.chunk.js"
+  ]
+}
